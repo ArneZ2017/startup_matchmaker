@@ -1,0 +1,270 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/******************************************
+/* FONT STYLES
+/*******************************************/
+
+body {
+
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: black;
+}
+
+
+h1, h2, h4 {
+	
+	font-family: 'Merriweather', serif;
+}
+
+h3, li {
+
+	font-family: 'Oswald', serif;
+}
+
+.intro-right p {
+
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+
+	font-size: 30px;
+	color: #FFF653;
+}
+
+h3 {
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+}
+/******************************************
+/* SECTION STYLES
+/*******************************************/
+
+header {
+
+	background-color: black;
+	border-bottom: 2px solid #FFF653; 
+	padding-top: 10px;
+	padding-bottom: 32px;
+}
+
+header a {
+	color: #FFF;
+}
+
+header li {
+
+	margin: 0 10px;
+}
+
+nav {
+
+	float: right;
+	
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul li:nth-child(1) {
+	color: red;
+}
+
+nav li a {
+	font-size: 30px;
+}
+
+section:first-of-type {
+
+	background-color: #C6C6C6;
+}
+
+h1 {
+	float: left;
+}
+
+h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	font-style: italic;
+	padding: 5px;
+}
+
+li div a {
+	color:black;
+}
+
+footer div p {
+	color: white;
+}
+
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+
+  /*width: 1024px;*/
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.background-pic {
+	background-image: url("./images/coworking.jpg");
+	background-size:cover;
+}
+
+.intro-right {
+	float: right;
+	width: 300px;
+	margin: 3%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: rgba(211,211,211,0.5);
+	box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+.intro-right p {
+	font-size: 26px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.intro-right a {
+
+	color: black;
+}
+
+.button {
+	border-radius: 5px;
+	color: black;
+	display: block;
+	font-size: 22px;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.button-yellow {
+	background-color: yellow;
+	border-bottom: 3px solid #CEC441;
+}
+
+.button-grey {
+	background-color: grey;
+	border-bottom: 3px solid #999;
+}
+
+.bottom-three {
+	width: 33.333%;
+	float:left;
+	padding: 20px;
+	list-style: none;
+	border-right: solid black;
+}
+
+.bottom-three:last-child {
+	border-right:none;
+}
+
+.bottom-three p {
+	line-height: 1.6;
+	margin-top: 10px;
+}
+
+.bottom {
+	background-color: white;
+	padding: 10px;
+}
+
+/*Designer Site*/
+
+.grey-background {
+	background-color: grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.card {
+	width: 24%;
+	border: 6px solid white;
+	float: left;
+	padding:0;
+	background-color: white;
+	}
+
+.grey-background li:last-child div {
+	margin-right:none;
+}
+
+.grey-background li div {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.picture {
+	height:280px;
+	width: 100%;
+	background-color: grey;
+	margin:0;
+	padding:0;
+}
+
+.skills {
+	border-radius: 5px;
+	background-color: grey;
+	color: white;
+	display: inline-block;
+	font-size: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	text-align: center;
+}
+
+
+
+
